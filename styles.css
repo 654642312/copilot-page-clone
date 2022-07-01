@@ -4,3 +4,50 @@
   --white: #F7F8FA;
   --black: #0C1017;
 }
+
+body {
+  background-color: var(--gray);
+  color: var(--white);
+  font-family: Arial;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: transparent;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_list-item {
+  margin-right: 20px;
+  font-size: 20px;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav_list-item-input {
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--light-gray);
+  border-radius: 8px;
+  background-color: var(--gray);
+  border: 1px solid var(--light-gray);
+  outline: none;
+  padding: 8px;
+}
+
+.border-white {
+  border: 1px solid var(--white);
+  padding: 8px;
+  border-radius: 8px;
+}
