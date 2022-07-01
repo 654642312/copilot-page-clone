@@ -31,11 +31,12 @@ body {
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .nav_list-item-input {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   cursor: pointer;
   color: var(--light-gray);
